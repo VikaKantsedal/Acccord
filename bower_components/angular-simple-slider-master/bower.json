@@ -1,0 +1,25 @@
+{
+  "name": "angular-simple-slider",
+  "version": "1.0.0",
+  "authors": [
+    "Ruy Adorno"
+  ],
+  "main": "dist/angular-simple-slider.js",
+  "keywords": [
+    "slider",
+    "simple",
+    "gallery",
+    "carousel",
+    "angular",
+    "images"
+  ],
+  "dependencies": {
+    "angular": "^1.x.x"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.x.x",
+    "angular-scenario": "^1.x.x",
+    "SimpleSlider": "^0.x.x"
+  },
+  "license": "MIT"
+}
