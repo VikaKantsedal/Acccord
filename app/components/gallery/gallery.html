@@ -12,7 +12,7 @@
         </div>
 
         <div id="content" class="gallery-images-container">
-            <div class="grid" data-masonry>
+            <div class="grid" data-masonry preserve-order>
                 <div class="grid-sizer"></div>
                 <div class="masonry-brick grid-item " ng-repeat="image in images">
                     <a ng-click="openLightboxModal($index)"><img ng-src="{{image.thumbUrl}}" alt="A masonry brick" class="img-thumbnail"></a>
